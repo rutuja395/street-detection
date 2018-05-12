@@ -1,0 +1,9 @@
+g++ -I/home/ai_students/r_aicity/opencv/modules/core/include \
+-I/home/ai_students/r_aicity/opencv/modules/imgproc/include \
+-I/home/ai_students/r_aicity/opencv/modules/highgui/include \
+-I/home/ai_students/r_aicity/opencv/modules/objdetect/include \
+-I/home/ai_students/r_aicity/opencv/modules/videoio/include \
+-I/home/ai_students/r_aicity/opencv/modules/imgcodecs/include \
+-L/home/ai_students/r_aicity/opencv/build/lib -g -o main Cfg.cpp ObjDet.cpp RoiSel.cpp main.cpp \
+-lopencv_imgcodecs -lopencv_videoio -lopencv_objdetect -lopencv_features2d \
+-lopencv_imgproc -lopencv_highgui -lopencv_core
